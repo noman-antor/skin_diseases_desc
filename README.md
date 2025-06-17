@@ -8,13 +8,11 @@
 
 - [📖 Project Overview](#-project-overview)
 - [🚀 Functionalities](#-functionalities)
-  - [📷 Image-Based Disease Detection](#-image-based-diseases-detection)
-  - [Region Based Maximum Production](#region-based-maximum-production)
-  - [Fertilizer & Pesticide Recommendation](#-fertilizer-&-pesticide-recommendation)
+  - [📷 Image Based Diseases Detection](#-image-based-diseases-detection)
 - [🎥 Demo Video ](#-demo-video)
 - [🛠 Tech Stack](#-tech-stack)
 - [🧹 Data Preprocessing](#-data-preprocessing)
-- [📌 Model Architecture & Training](#-model-architecture-&-training)
+- [📌 Model Architecture](#-model-architecture)
 - [📈 Evaluation Metrics](#-evaluation-metrics)
 
 ---
@@ -36,7 +34,7 @@ This project leverages medical imaging datasets and deep learning to help genera
 - Networking Package: dio: ^5.4.0
 - REST API via FastAPI
 
-### 📷 Image-Based Disease Detection
+### 📷 Image Based Diseases Detection
 ---
 - Endpoint: `POST localhost:8070/predict`
 - Input Format
@@ -84,11 +82,11 @@ This project leverages medical imaging datasets and deep learning to help genera
 
 - Image resizing (e.g., 256x256)
 - Normalization of pixel values
-- Data augmentation: rotation, flipping
+- Data augmentation: Rotation, Flipping
 - Class balancing
 - Addition of garbage class
 
-## 📌 Model Architecture & Training
+## 📌 Model Architecture
 
 ### 🧠 CNN Model Details:
 ---
@@ -99,7 +97,7 @@ This project leverages medical imaging datasets and deep learning to help genera
 - MaxPooling after each Convolutional layer
 - Fully Connected Layers: One Dense layer with 64 units and ReLU activation
 - Output Layer: Softmax activation for multi-class classification
-- <table>
+  <table>
   <tr>
     <td><img src="assets/model_details1.png" width="200"/></td>
     <td><img src="assets/model_details2.png" width="200"/></td>
@@ -113,9 +111,18 @@ This project leverages medical imaging datasets and deep learning to help genera
 
 ## 📈 Evaluation Metrics
 
+- Accuracy: 92.64%
+- Precision, Recall, F1-Score:
 
+  <img src="assets/report.png" width="500"/>
+- Model Evaluation:
 
+  <img src="assets/model_eval.png" width="500"/>
+- Training Curves:
 
+  <img src="assets/train_vs_val.png" width="500"/>
+
+---
 
 
 
