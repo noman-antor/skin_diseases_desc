@@ -31,7 +31,7 @@ This project leverages medical imaging datasets and deep learning to help genera
 ## 🚀 Functionalities
 
 - Deep Learning Classification using CNN
-- Networking Package: dio: ^5.4.0
+- Networking Package: dio 5.4.0
 - REST API via FastAPI
 
 ### 📷 Image Based Diseases Detection
