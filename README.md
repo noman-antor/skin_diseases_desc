@@ -64,7 +64,7 @@ This project leverages medical imaging datasets and deep learning to help genera
 ---
 
 ## 🎥 Demo Video 
-[Click here to watch full application](https://drive.google.com/file/d/1Or7wS_EG-0u5zYQWcEdlrTYJ365a3uq4/view?usp=sharing)
+[Click here to watch full application](https://drive.google.com/file/d/13IOfhqcKsNX3g138qJMOdt_Nh-9XTfrp/view?usp=sharing)
 
 ---
 
